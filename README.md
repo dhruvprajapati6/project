@@ -1,139 +1,144 @@
 # <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:00C9FF,20:92FE9D,40:6A5ACD,60:FF6FD8,80:FF512F,100:F9D423&text=PHP%20Registration%20System&fontSize=48&fontAlignY=40&animation=fadeIn&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:00C9FF,20:92FE9D,40:6A5ACD,60:FF6FD8,80:FF512F,100:F9D423&text=PHP%20Registration%20System&fontSize=50&fontAlignY=40&animation=fadeIn&fontColor=ffffff"/>
 
-### 🚀 Modern • Secure • Responsive • Database Powered
+### 🔐 Modern User Registration System Using PHP & MySQL
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Secure+PHP+Registration+System;User+Authentication+Project;Form+Validation+with+MySQL;Built+Using+PHP+%2B+MySQL+%2B+HTML+%2B+CSS" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=750&lines=Secure+Registration+System;PHP+%2B+MySQL+Project;Server-Side+Validation;Beginner+Friendly+Backend+Project;Built+with+Clean+Code+Practices"/>
 
 <br>
 
-<img src="https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge"/>
-<img src="https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO?style=for-the-badge"/>
-<img src="https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO?style=for-the-badge"/>
-<img src="https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php"/>
+<img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql"/>
+<img src="https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5"/>
+<img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3"/>
 
 </div>
 
 ---
 
-# 🌟 Project Overview
+# 🌟 About The Project
 
-This project is a **Professional User Registration System** developed using **PHP & MySQL** with powerful server-side validation and database integration.
+A secure and beginner-friendly **PHP Registration System** that allows users to register using their personal details while performing powerful server-side validations before storing data in the database.
 
-It allows users to register securely while validating all important fields before storing information in the database.
+This project demonstrates real-world backend concepts such as:
 
-Perfect for learning:
+✨ Form Handling
 
-✔ PHP Forms
+✨ Input Validation
 
-✔ MySQL Connectivity
+✨ Database Connectivity
 
-✔ Authentication Concepts
+✨ Duplicate Email Checking
 
-✔ Input Validation
+✨ User Authentication Fundamentals
 
-✔ Web Development Fundamentals
-
-✔ Backend Development
+✨ Secure Data Processing
 
 ---
 
-# ✨ Premium Features
+# 🎯 Key Features
 
-<table>
-<tr>
-<td width="50%">
+### 👤 User Registration
 
-### 👤 User Management
+* Register new users easily
+* Clean registration interface
+* Simple and responsive design
 
-* New User Registration
-* Database Storage
-* Clean Form Interface
-* Easy Integration
+### 📧 Email Validation
 
-</td>
-<td width="50%">
+* Valid email format checking
+* Duplicate email prevention
+* Database verification
 
-### 🛡 Security Features
+### 🔒 Password Verification
 
-* Email Validation
-* Duplicate Email Check
-* Password Verification
-* Contact Validation
+* Password length validation
+* Empty password protection
+* Secure input processing
 
-</td>
-</tr>
-<tr>
-<td>
+### 📱 Contact Validation
 
-### 📧 Email System
+* 10-digit mobile number validation
+* Numeric verification
+* Invalid contact rejection
 
-* Email Format Validation
-* Unique Email Checking
-* Prevent Duplicate Accounts
+### 🛡 Server-Side Validation
 
-</td>
-<td>
-
-### ⚡ Performance
-
-* Lightweight
-* Fast Processing
-* Easy Deployment
-* Beginner Friendly
-
-</td>
-</tr>
-</table>
+* Name validation using Regular Expressions
+* Email validation using PHP filters
+* Input sanitization using trim()
 
 ---
 
-# 🧠 Validation Logic
+# ⚡ System Workflow
 
-### Name Validation
+```text id="i3bgjm"
+User Opens Registration Form
+              │
+              ▼
+        Enter Details
+              │
+              ▼
+      Server Validation
+              │
+              ▼
+     Email Duplication Check
+              │
+              ▼
+       Database Storage
+              │
+              ▼
+      Registration Success
+```
 
-```php
+---
+
+# 🧠 Validation Methods
+
+## Name Validation
+
+```php id="1hkmbl"
 preg_match("/^[a-zA-Z]*$/",$name);
 ```
 
-✔ Allows only alphabets
+✔ Only alphabets allowed
 
-✔ Prevents invalid names
+✔ Invalid characters blocked
 
 ---
 
-### Email Validation
+## Email Validation
 
-```php
+```php id="i5ndq5"
 filter_var($email,FILTER_VALIDATE_EMAIL);
 ```
 
-✔ Valid email format
+✔ Proper email format required
 
-✔ Email verification before insertion
+✔ Invalid emails rejected
 
 ---
 
-### Password Validation
+## Password Validation
 
-```php
+```php id="6mxpfr"
 strlen($password) > 4;
 ```
 
-✔ Prevents weak passwords
+✔ Minimum length required
 
-✔ Mandatory password length
+✔ Empty passwords prevented
 
 ---
 
-### Contact Validation
+## Contact Validation
 
-```php
+```php id="c4fifm"
 preg_match("/^[0-9]{10}$/",$contact);
 ```
 
-✔ Only numbers allowed
+✔ Only digits accepted
 
 ✔ Exactly 10 digits required
 
@@ -143,14 +148,14 @@ preg_match("/^[0-9]{10}$/",$contact);
 
 <div align="center">
 
-| Technology | Usage         |
-| ---------- | ------------- |
-| PHP        | Backend Logic |
-| MySQL      | Database      |
-| HTML5      | Structure     |
-| CSS3       | Styling       |
-| XAMPP      | Local Server  |
-| Regex      | Validation    |
+| Technology | Purpose           |
+| ---------- | ----------------- |
+| PHP        | Backend Logic     |
+| MySQL      | Database Storage  |
+| HTML5      | Structure         |
+| CSS3       | Styling           |
+| Regex      | Validation        |
+| XAMPP      | Local Development |
 
 </div>
 
@@ -158,159 +163,95 @@ preg_match("/^[0-9]{10}$/",$contact);
 
 # 📂 Project Structure
 
-```bash
+```bash id="gggpg7"
 📦 PHP-Registration-System
 │
 ├── 📄 pr30reg.php
-├── 📄 pr25.php
-├── 📄 login.php
-├── 🎨 mystyle1.css
-├── 📘 README.md
+│     Registration Form
 │
-└── 🗄 Database
+├── 📄 pr25.php
+│     Database Connection
+│
+├── 📄 login.php
+│     Login Page
+│
+├── 🎨 mystyle1.css
+│     Styling File
+│
+└── 📘 README.md
 ```
 
 ---
 
-# ⚙ Installation Guide
+# 💡 Why This Project?
 
-## 1️⃣ Clone Repository
+This project is ideal for students and beginners who want to learn:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/PHP-Registration-System.git
-```
-
-## 2️⃣ Move Project
-
-```bash
-xampp/htdocs/
-```
+* PHP Forms
+* MySQL Integration
+* Backend Development
+* Input Validation
+* Authentication Concepts
+* Database Operations
 
 ---
 
-## 3️⃣ Start Services
-
-```bash
-Apache
-MySQL
-```
-
-Using XAMPP Control Panel.
-
----
-
-## 4️⃣ Create Database
-
-```sql
-CREATE DATABASE registration_db;
-```
-
----
-
-## 5️⃣ Create Table
-
-```sql
-CREATE TABLE cust_info(
-id INT AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(100),
-email VARCHAR(100) UNIQUE,
-password VARCHAR(255),
-contact BIGINT
-);
-```
-
----
-
-# 🔥 Workflow
-
-```text
-User Input
-     │
-     ▼
-Validation
-     │
-     ▼
-Duplicate Email Check
-     │
-     ▼
-Database Storage
-     │
-     ▼
-Registration Success
-```
-
----
-
-# 🚀 Future Enhancements
-
-### Authentication
-
-* Login System
-* Logout System
-* Session Handling
+# 🔥 Future Improvements
 
 ### Security
 
 * Password Hashing
 * SQL Injection Protection
+* Session Security
 * CSRF Protection
+
+### Authentication
+
+* Login System
+* Logout System
+* Remember Me Feature
 
 ### User Features
 
-* Profile Management
 * Forgot Password
 * Email Verification
+* User Dashboard
+* Profile Management
 
-### UI Improvements
+### UI Enhancements
 
-* Bootstrap UI
-* Dark Mode
-* Mobile Responsive Design
-
----
-
-# 📊 Project Highlights
-
-<div align="center">
-
-| Feature             | Status |
-| ------------------- | ------ |
-| Registration System | ✅      |
-| Email Validation    | ✅      |
-| Password Validation | ✅      |
-| Contact Validation  | ✅      |
-| MySQL Database      | ✅      |
-| Login Module        | 🔄     |
-| Password Hashing    | 🔄     |
-| Email Verification  | 🔄     |
-
-</div>
+* Bootstrap Integration
+* Mobile Responsive Layout
+* Dark Mode Support
+* Modern User Interface
 
 ---
 
-# 🎯 Learning Outcomes
+# 🎓 Learning Outcomes
 
-After building this project, you will understand:
+After completing this project, you will gain knowledge of:
 
-✔ PHP Fundamentals
+✅ PHP Programming
 
-✔ Database Connectivity
+✅ Form Handling
 
-✔ Form Handling
+✅ MySQL Database Operations
 
-✔ CRUD Basics
+✅ Input Validation
 
-✔ Authentication Workflow
+✅ Regular Expressions
 
-✔ Input Validation
+✅ Backend Development Fundamentals
 
-✔ Web Security Basics
+✅ Authentication Workflow
 
 ---
 
 # 👨‍💻 Developer
 
 <div align="center">
+
+<img src="https://github.com/dhruvprajapati6.png" width="140"/>
 
 ## Dhruv Prajapati
 
@@ -322,31 +263,38 @@ After building this project, you will understand:
 
 🔐 Cyber Security Enthusiast
 
-🚀 Building Projects & Learning Daily
+🚀 Passionate About Building Real-World Projects
+
+### Connect With Me
+
+GitHub: https://github.com/dhruvprajapati6
 
 </div>
 
 ---
 
-# ⭐ Support The Project
+# ⭐ Project Status
 
-If you like this project:
+```text id="f4skpj"
+Status : Active ✅
 
-```text
-⭐ Star the Repository
-🍴 Fork the Repository
-📢 Share with Friends
-💙 Follow for More Projects
+Version : 1.0 🚀
+
+Type : Educational Project 🎓
+
+Difficulty : Beginner to Intermediate 📚
 ```
 
 ---
 
 <div align="center">
 
-## 💖 Thank You For Visiting
+## 💙 Thank You For Visiting
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00C9FF,25:92FE9D,50:6A5ACD,75:FF6FD8,100:FF512F"/>
+### If you found this project helpful, consider giving it a ⭐
 
-### 🚀 Happy Coding 🚀
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:00C9FF,20:92FE9D,40:6A5ACD,60:FF6FD8,80:FF512F,100:F9D423"/>
+
+### 🚀 Happy Coding & Keep Learning 🚀
 
 </div>
