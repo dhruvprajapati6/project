@@ -1,271 +1,352 @@
-<div align="center">
+# <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d0d1a,40:302b63,70:7c3aed,100:0d0d1a&text=🔐%20SecurePass%20Pro&fontSize=42&fontAlignY=42&animation=fadeIn&fontColor=ffffff&desc=Generate%20·%20Strong%20·%20Unbreakable%20Passwords&descSize=16&descAlignY=65&stroke=a855f7&strokeWidth=2" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:00C9FF,20:92FE9D,40:6A5ACD,60:FF6FD8,80:FF512F,100:F9D423&text=PHP%20Registration%20System&fontSize=48&fontAlignY=40&animation=fadeIn&fontColor=ffffff"/>
 
-<br/>
+### 🚀 Modern • Secure • Responsive • Database Powered
 
-<img src="https://readme-typing-svg.demolab.com?font=Cascadia+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=550&lines=🔐+Strong+Random+Passwords+Instantly;🎨+Premium+Dark+UI+%2B+Animations;⚡+Zero+Dependencies+—+Pure+Python;📊+Live+Strength+Meter+%2B+Entropy;💾+Copy+%26+Save+in+One+Click" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Secure+PHP+Registration+System;User+Authentication+Project;Form+Validation+with+MySQL;Built+Using+PHP+%2B+MySQL+%2B+HTML+%2B+CSS" />
 
-<br/><br/>
+<br>
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Tkinter](https://img.shields.io/badge/Tkinter-GUI-7C3AED?style=for-the-badge&logo=python&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-10B981?style=for-the-badge&logo=windows&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-✅%20Completed-22c55e?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/dhruvprajapati6/Password-Generator?style=for-the-badge&color=facc15&logo=github)
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO?style=for-the-badge"/>
+<img src="https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO?style=for-the-badge"/>
+<img src="https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO?style=for-the-badge"/>
 
 </div>
 
 ---
 
-## 🌌 Overview
+# 🌟 Project Overview
 
-<img align="right" width="320" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDJkbHVlbXptdm81NTBrcHFteXpzZjNybmh1OHc2NGtucnZsMWRrbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f3iwJFOVOwuy7K6FFw/giphy.gif"/>
+This project is a **Professional User Registration System** developed using **PHP & MySQL** with powerful server-side validation and database integration.
 
-> **SecurePass Pro** is a **modern desktop Password Generator** built with **Python + Tkinter**.
-> 
-> It features a stunning **deep-space dark UI**, real-time **password strength analysis**, **entropy calculation**, animated feedback, and one-click copy/save — all with **zero external dependencies**.
+It allows users to register securely while validating all important fields before storing information in the database.
 
-<br/>
+Perfect for learning:
 
-### 🎯 Why SecurePass Pro?
+✔ PHP Forms
 
-- 🔒 Cryptographically strong via `random.SystemRandom`
-- 🎨 Premium violet-purple neon dark theme
-- 📊 Live strength meter with entropy bits display
-- ⚡ Instant — no install, no setup, no internet needed
-- 🏆 Beautiful enough to show off in your portfolio
+✔ MySQL Connectivity
 
-<br clear="right"/>
+✔ Authentication Concepts
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+✔ Input Validation
+
+✔ Web Development Fundamentals
+
+✔ Backend Development
 
 ---
 
-## ✨ Features
+# ✨ Premium Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 👤 User Management
+
+* New User Registration
+* Database Storage
+* Clean Form Interface
+* Easy Integration
+
+</td>
+<td width="50%">
+
+### 🛡 Security Features
+
+* Email Validation
+* Duplicate Email Check
+* Password Verification
+* Contact Validation
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 📧 Email System
+
+* Email Format Validation
+* Unique Email Checking
+* Prevent Duplicate Accounts
+
+</td>
+<td>
+
+### ⚡ Performance
+
+* Lightweight
+* Fast Processing
+* Easy Deployment
+* Beginner Friendly
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🧠 Validation Logic
+
+### Name Validation
+
+```php
+preg_match("/^[a-zA-Z]*$/",$name);
+```
+
+✔ Allows only alphabets
+
+✔ Prevents invalid names
+
+---
+
+### Email Validation
+
+```php
+filter_var($email,FILTER_VALIDATE_EMAIL);
+```
+
+✔ Valid email format
+
+✔ Email verification before insertion
+
+---
+
+### Password Validation
+
+```php
+strlen($password) > 4;
+```
+
+✔ Prevents weak passwords
+
+✔ Mandatory password length
+
+---
+
+### Contact Validation
+
+```php
+preg_match("/^[0-9]{10}$/",$contact);
+```
+
+✔ Only numbers allowed
+
+✔ Exactly 10 digits required
+
+---
+
+# 🛠 Tech Stack
 
 <div align="center">
 
-| ⚡ Feature | 📝 Description |
-|:---:|:---|
-| 🔐 **Secure Generation** | Strong random passwords using Python's `random` module |
-| 📏 **Custom Length** | Slider control from **4 to 64** characters |
-| 🔡 **Charset Control** | Uppercase · Lowercase · Numbers · Symbols — mix & match |
-| 🚫 **Exclude Ambiguous** | Removes confusing chars like `0 O l 1 \|` |
-| 📊 **Strength Meter** | Color-coded progress bar: 🔴 → 🟡 → 🟢 → 🔵 |
-| 🧮 **Entropy Display** | Shows password entropy in bits at the status bar |
-| 📋 **Copy to Clipboard** | One-click copy with green flash animation |
-| 💾 **Save to File** | Save password securely via file dialog |
-| 🎞️ **Animations** | Cyan flash on generate · Title color cycles · Button press effects |
-| 🌑 **Premium Dark UI** | Deep-space dark theme with neon glow accents |
-| ⚠️ **Input Validation** | Warns if no charset selected |
-| ⚡ **Zero Dependencies** | 100% Python stdlib — no pip required |
+| Technology | Usage         |
+| ---------- | ------------- |
+| PHP        | Backend Logic |
+| MySQL      | Database      |
+| HTML5      | Structure     |
+| CSS3       | Styling       |
+| XAMPP      | Local Server  |
+| Regex      | Validation    |
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
 ---
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,vscode,git,github&theme=dark" />
-
-<br/><br/>
-
-| 🔧 Tool | 🎯 Purpose |
-|:---:|:---|
-| `Python 3.x` | Core programming language |
-| `Tkinter` | Built-in GUI framework |
-| `ttk` (themed widgets) | Styled progressbar & slider |
-| `random` + `string` | Password generation logic |
-| `math` | Entropy (bits) calculation |
-| `tkinter.filedialog` | Save-to-file dialog |
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
----
-
-## 📂 Project Structure
-
-```
-📦 Password-Generator/
-│
-├── 📄 main.py            ← Full app — UI + logic + animations
-├── 📄 README.md          ← You are here!
-└── 📄 requirements.txt   ← Zero external deps (stdlib only)
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
----
-
-## 🚀 Getting Started
-
-### ✅ Prerequisites
-
-```
-Python 3.8 or higher
-Tkinter (included with Python by default)
-```
-
-### 📥 Clone & Run
+# 📂 Project Structure
 
 ```bash
-# 1️⃣  Clone the repository
-git clone https://github.com/dhruvprajapati6/Password-Generator.git
-
-# 2️⃣  Enter the project folder
-cd Password-Generator
-
-# 3️⃣  Launch the app
-python main.py
+📦 PHP-Registration-System
+│
+├── 📄 pr30reg.php
+├── 📄 pr25.php
+├── 📄 login.php
+├── 🎨 mystyle1.css
+├── 📘 README.md
+│
+└── 🗄 Database
 ```
-
-> 💡 **That's it!** No `pip install`, no virtual env — pure Python magic.
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ---
 
-## 🎮 How to Use
+# ⚙ Installation Guide
 
-```
-┌─────────────────────────────────────────────────┐
-│  🔐  SecurePass Pro                             │
-├─────────────────────────────────────────────────┤
-│                                                 │
-│  [ Generated Password Display ]           [⎘]  │
-│                                                 │
-│  Strength: ████████████░░░░  Strong 🟢          │
-│                                                 │
-│  Length ──────●────────── 16                    │
-│                                                 │
-│  ☑ Uppercase  ☑ Lowercase                       │
-│  ☑ Numbers    ☑ Symbols                         │
-│  ☐ Exclude ambiguous chars                      │
-│                                                 │
-│  [ ✨ Generate ]  [ 💾 Save ]  [ 🗑 Clear ]      │
-│                                                 │
-└─────────────────────────────────────────────────┘
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/PHP-Registration-System.git
 ```
 
-| Step | Action |
-|:---:|:---|
-| **1️⃣** | Set your desired length using the **slider** |
-| **2️⃣** | Check/uncheck the **character types** you want |
-| **3️⃣** | Hit **✨ Generate Password** — watch it flash! |
-| **4️⃣** | See the **strength meter** and **entropy** update live |
-| **5️⃣** | Click **⎘** to copy, or **💾 Save** to export |
+## 2️⃣ Move Project
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+```bash
+xampp/htdocs/
+```
 
 ---
 
-## 📊 Password Strength Guide
+## 3️⃣ Start Services
+
+```bash
+Apache
+MySQL
+```
+
+Using XAMPP Control Panel.
+
+---
+
+## 4️⃣ Create Database
+
+```sql
+CREATE DATABASE registration_db;
+```
+
+---
+
+## 5️⃣ Create Table
+
+```sql
+CREATE TABLE cust_info(
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100),
+email VARCHAR(100) UNIQUE,
+password VARCHAR(255),
+contact BIGINT
+);
+```
+
+---
+
+# 🔥 Workflow
+
+```text
+User Input
+     │
+     ▼
+Validation
+     │
+     ▼
+Duplicate Email Check
+     │
+     ▼
+Database Storage
+     │
+     ▼
+Registration Success
+```
+
+---
+
+# 🚀 Future Enhancements
+
+### Authentication
+
+* Login System
+* Logout System
+* Session Handling
+
+### Security
+
+* Password Hashing
+* SQL Injection Protection
+* CSRF Protection
+
+### User Features
+
+* Profile Management
+* Forgot Password
+* Email Verification
+
+### UI Improvements
+
+* Bootstrap UI
+* Dark Mode
+* Mobile Responsive Design
+
+---
+
+# 📊 Project Highlights
 
 <div align="center">
 
-| 📏 Length | 🔡 Character Set | 💪 Strength | ⏳ Crack Time | 🎯 Use Case |
-|:---:|:---:|:---:|:---:|:---|
-| ≤ 7 | Any | 🔴 **Weak** | < 1 second | Never use! |
-| 8–11 | Lower + Upper | 🟡 **Moderate** | Minutes–Hours | Low-risk only |
-| 12–15 | + Numbers | 🟢 **Strong** | Years | Good for most |
-| 16–19 | All Types | 🟢 **Very Strong** | Centuries | Recommended |
-| 20+ | All Types | 🔵 **Ultra** | Heat death of universe | Maximum security |
+| Feature             | Status |
+| ------------------- | ------ |
+| Registration System | ✅      |
+| Email Validation    | ✅      |
+| Password Validation | ✅      |
+| Contact Validation  | ✅      |
+| MySQL Database      | ✅      |
+| Login Module        | 🔄     |
+| Password Hashing    | 🔄     |
+| Email Verification  | 🔄     |
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+---
+
+# 🎯 Learning Outcomes
+
+After building this project, you will understand:
+
+✔ PHP Fundamentals
+
+✔ Database Connectivity
+
+✔ Form Handling
+
+✔ CRUD Basics
+
+✔ Authentication Workflow
+
+✔ Input Validation
+
+✔ Web Security Basics
 
 ---
 
-## 🗺️ Roadmap
-
-```
-✅ Core password generation
-✅ Premium dark theme UI
-✅ Live strength meter
-✅ Entropy calculation
-✅ Copy to clipboard
-✅ Save to file
-✅ Exclude ambiguous chars
-✅ Animated flash feedback
-🔲 Password history log
-🔲 Bulk password generation
-🔲 Custom charset input
-🔲 Web version (Streamlit)
-🔲 Passphrase generator mode
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
----
-
-## 📜 License
+# 👨‍💻 Developer
 
 <div align="center">
 
-Distributed under the **MIT License** — free to use, fork, modify, and share.
+## Dhruv Prajapati
 
-```
-MIT License © 2025 Dhruv Prajapati
-Permission is granted to use this software freely.
-```
+🎓 BCA Student
+
+💻 PHP Developer
+
+🐍 Python Learner
+
+🔐 Cyber Security Enthusiast
+
+🚀 Building Projects & Learning Daily
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
 ---
 
-## 📬 Contact & Connect
+# ⭐ Support The Project
 
-<div align="center">
+If you like this project:
 
-[![GitHub](https://img.shields.io/badge/GitHub-dhruvprajapati6-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhruvprajapati6)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dhruv%20Prajapati-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-prajapati-616b89362/)
-[![Gmail](https://img.shields.io/badge/Gmail-dhruvpprajapati2007-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhruvpprajapati2007@gmail.com)
-
-<br/>
-
-**💬 Have feedback or ideas? Open an [Issue](https://github.com/dhruvprajapati6/Password-Generator/issues) or start a [Discussion](https://github.com/dhruvprajapati6/Password-Generator/discussions)!**
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+```text
+⭐ Star the Repository
+🍴 Fork the Repository
+📢 Share with Friends
+💙 Follow for More Projects
+```
 
 ---
 
 <div align="center">
 
-### 🌟 Show Some Love!
+## 💖 Thank You For Visiting
 
-**If this project helped you, please give it a ⭐ — it means a lot!**
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00C9FF,25:92FE9D,50:6A5ACD,75:FF6FD8,100:FF512F"/>
 
-<img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%"/>
-
-<br/>
-
-```
-  ____                            ____
- / ___|  ___  ___ _   _ _ __ ___|  _ \ __ _ ___ ___
- \___ \ / _ \/ __| | | | '__/ _ \ |_) / _` / __/ __|
-  ___) |  __/ (__| |_| | | |  __/  __/ (_| \__ \__ \
- |____/ \___|\___|\__,_|_|  \___|_|   \__,_|___/___/
-
-              🔐  Pro  —  Stay Secure!
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:0d0d1a,50:302b63,100:7c3aed&section=footer&animation=fadeIn" />
+### 🚀 Happy Coding 🚀
 
 </div>
